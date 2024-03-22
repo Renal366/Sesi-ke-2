@@ -1,0 +1,17 @@
+english =float(input(" masukan nilai anda english:"))
+mtk =float(input(" Masukan nilai mtk :"))
+filsafat =float(input(" masukan nilai filsafat :"))
+sejarah =float(input(" masukan nilai sejarah :"))
+indo =float(input(" masukan nilai indo :"))
+
+rata_rata = ( english + mtk + indo ) / 3
+rata_rata_semua = (english +mtk +filsafat + sejarah + indo) / 5
+
+if rata_rata >= 75 :
+    print (" dia lulus ")
+elif rata_rata_semua >= 70:
+    print(" maka dia lulus ")
+elif mtk > 90 and english > 90:
+    print(" maka dia lulus ")
+else:
+    print(" maka dia tidak lulus ")
