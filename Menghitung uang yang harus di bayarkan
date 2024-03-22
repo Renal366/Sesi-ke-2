@@ -1,0 +1,7 @@
+mangga = int(input("Masukan jumlah mangga:"))
+if mangga <=2 : 
+    print(mangga * 20_000)
+elif mangga >2 and mangga <=5: 
+    print("harga:", mangga * 18_000)
+elif mangga >5 :
+    print("harga:", mangga * 16_000)
